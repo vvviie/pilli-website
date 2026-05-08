@@ -1,0 +1,16 @@
+{
+  "/_not-found/page": "/_not-found",
+  "/api/physicians/create/route": "/api/physicians/create",
+  "/api/physicians/list/route": "/api/physicians/list",
+  "/api/physicians/signature/route": "/api/physicians/signature",
+  "/api/prescriptions/complete/route": "/api/prescriptions/complete",
+  "/api/prescriptions/logs/route": "/api/prescriptions/logs",
+  "/admin/audit/page": "/admin/audit",
+  "/dashboard/page": "/dashboard",
+  "/page": "/",
+  "/physicians/page": "/physicians",
+  "/login/page": "/login",
+  "/prescription/logs/page": "/prescription/logs",
+  "/signup/page": "/signup",
+  "/prescription/page": "/prescription"
+}

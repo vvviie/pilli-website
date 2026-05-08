@@ -1,0 +1,16 @@
+{
+  "/_not-found/page": "app/_not-found/page.js",
+  "/api/physicians/create/route": "app/api/physicians/create/route.js",
+  "/api/physicians/list/route": "app/api/physicians/list/route.js",
+  "/api/physicians/signature/route": "app/api/physicians/signature/route.js",
+  "/api/prescriptions/complete/route": "app/api/prescriptions/complete/route.js",
+  "/api/prescriptions/logs/route": "app/api/prescriptions/logs/route.js",
+  "/admin/audit/page": "app/admin/audit/page.js",
+  "/dashboard/page": "app/dashboard/page.js",
+  "/page": "app/page.js",
+  "/physicians/page": "app/physicians/page.js",
+  "/login/page": "app/login/page.js",
+  "/prescription/logs/page": "app/prescription/logs/page.js",
+  "/signup/page": "app/signup/page.js",
+  "/prescription/page": "app/prescription/page.js"
+}

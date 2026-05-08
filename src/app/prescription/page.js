@@ -16,7 +16,7 @@ import readPrescriptionFormValuesFromDraft from "@/lib/read-prescription-form-va
 import readPrescriptionPersistencePayload from "@/lib/read-prescription-persistence-payload";
 import readPrescriptionPreview from "@/lib/read-prescription-preview";
 import upsertPrescriptionInFirestore from "@/lib/upsert-prescription-in-firestore";
-import { useEffect, useRef, useState } from "react";
+import { Suspense, useEffect, useRef, useState } from "react";
 import useUserRole from "@/hooks/use-user-role";
 import { useRouter, useSearchParams } from "next/navigation";
 
@@ -25,7 +25,7 @@ const inputClass =
 
 const labelClass = "mb-1.5 block text-xs font-semibold uppercase tracking-wide text-slate-500";
 
-export default function PrescriptionPage() {
+function PrescriptionPageContent() {
   const router = useRouter();
   const searchParams = useSearchParams();
   const { firebaseUser } = useFirebaseAuth();
@@ -682,5 +682,13 @@ export default function PrescriptionPage() {
         />
       </AppShell>
     </FirebaseRouteGuard>
+  );
+}
+
+export default function PrescriptionPage() {
+  return (
+    <Suspense fallback={<div className="p-6 text-sm text-slate-500">Loading prescription page...</div>}>
+      <PrescriptionPageContent />
+    </Suspense>
   );
 }
