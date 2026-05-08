@@ -1,0 +1,62 @@
+[
+    {
+        "drugName": "Amoxicillin",
+        "drugDosage": "500mg"
+    },
+    {
+        "drugName": "Lisinopril",
+        "drugDosage": "10mg"
+    },
+    {
+        "drugName": "Atorvastatin",
+        "drugDosage": "20mg"
+    },
+    {
+        "drugName": "Metformin",
+        "drugDosage": "850mg"
+    },
+    {
+        "drugName": "Amlodipine",
+        "drugDosage": "5mg"
+    },
+    {
+        "drugName": "Metoprolol",
+        "drugDosage": "50mg"
+    },
+    {
+        "drugName": "Omeprazole",
+        "drugDosage": "20mg"
+    },
+    {
+        "drugName": "Simvastatin",
+        "drugDosage": "40mg"
+    },
+    {
+        "drugName": "Losartan",
+        "drugDosage": "50mg"
+    },
+    {
+        "drugName": "Albuterol",
+        "drugDosage": "90mcg"
+    },
+    {
+        "drugName": "Gabapentin",
+        "drugDosage": "300mg"
+    },
+    {
+        "drugName": "Hydrochlorothiazide",
+        "drugDosage": "25mg"
+    },
+    {
+        "drugName": "Sertraline",
+        "drugDosage": "50mg"
+    },
+    {
+        "drugName": "Furosemide",
+        "drugDosage": "40mg"
+    },
+    {
+        "drugName": "Levothyroxine",
+        "drugDosage": "100mcg"
+    }
+]

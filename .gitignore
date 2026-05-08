@@ -1,0 +1,14 @@
+# Firebase logs
+firebase-debug.log
+*.log
+
+# Firebase configuration (private aliases)
+.firebase/
+.firebaserc
+
+# Node dependencies
+node_modules/
+
+# Environment variables
+.env
+.env.local
